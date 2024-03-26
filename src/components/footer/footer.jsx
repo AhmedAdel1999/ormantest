@@ -20,11 +20,12 @@ const Footer = () =>{
        if(!name || !phone || !email || !msgContent || !msgHeader){
           window.alert("you have too fill all inputs first")
        }else{
-           axios.post("http://ormantest.runasp.net/api/ContactUs",{
+           axios.post("https://ormantest.runasp.net/api/ContactUs",{
             name,email,phone,msgContent,msgHeader
            }).then((msg)=>{
               window.alert("your message was sent successfully")
            }).catch((err)=>{
+            console.log(err)
               window.alert(`${err.message}`)
            })
        }
