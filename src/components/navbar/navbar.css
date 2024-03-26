@@ -1,0 +1,65 @@
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px 45px 10px 30px;
+    background-color: #fff;
+    
+}
+
+
+.navbar .logo,.navbar .logo img{
+    width: 280px;
+    height: 80px;
+}
+
+
+.navigations{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+.navigations li a{
+   text-decoration: none;
+   padding: 7px 0px;
+   color: #222;
+   font-size: 20px;
+   font-weight: 500;
+   display: flex;
+   gap: 5px;
+}
+.navigations li a.active{
+   border-bottom: 2px solid #FFC107; 
+}
+.navigations li a svg{
+    color: #FFC107;
+}
+
+
+
+.btn-group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 300px;
+}
+.btn-group button{
+    height: 48px;
+    width: 145px;
+    color: #343A40;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 3px solid #FFC107;
+    background-color: inherit;
+}
+.btn-group button:last-child{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

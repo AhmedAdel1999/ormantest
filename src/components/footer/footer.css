@@ -1,0 +1,102 @@
+footer{
+    background-color: #222;
+    padding-top: 30px
+}
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+.general-info .footer-logo{
+  width: 380px;
+  height: 110px;
+}
+.footer-logo img{
+    width: 100%;
+    height: 100%;
+}
+.general-info p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: right;
+    margin-bottom: 25px;
+    color: #fff;
+}
+.general-info h3{
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    color: #fff;
+}
+.general-info ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.general-info ul li a{
+    height: 17px;
+    width: 17px;
+    text-decoration: none;
+    color: #c2c2c2;
+}
+
+.important-links h4,.contact-us h4{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: right;
+    color:#fff;
+    margin-bottom: 10px;
+}
+
+.important-links ul li{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: right;
+    color: #8E8E8E;
+}
+.contact-us{
+    padding-bottom: 20px;
+}
+
+.contact-us form{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+}
+form .inputs-group{
+    display: flex;
+    gap: 10px;
+}
+form input,textarea{
+    padding: 10px;
+    font-size: 18px;
+}
+form textarea{
+    height: 120px;
+}
+form .submit-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.submit-btn button{
+    background-color: #8DC540;
+    color: #fff;
+    width: 80px;
+    height: 35px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.copywrite{
+    border-top: 1px solid #ddd;
+    padding: 10px 0px;
+    text-align: center;
+    color: #fff;
+}

@@ -1,0 +1,6 @@
+/* h1::after,h1::before{
+  content:"";
+  height:2px;
+  display: block;
+  background:#000;
+} */
