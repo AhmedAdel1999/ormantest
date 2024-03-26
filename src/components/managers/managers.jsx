@@ -9,7 +9,7 @@ const Managers = () =>{
 
     const [managersData,setManagersData] = useState([])
     useEffect(()=>{
-       axios.get("http://ormantest.runasp.net/api/SuccessPartener")
+       axios.get("https://ormantest.runasp.net/api/SuccessPartener")
        .then((data)=>{
         let finalData = data.data.map((item)=>{
             return{
